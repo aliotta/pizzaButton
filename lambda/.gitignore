@@ -1,0 +1,9 @@
+syntax:glob
+.DS_Store
+.env
+__.env
+lambda/.env
+lambda/__.env
+.env*
+lambda/.env*
+node_modules/
