@@ -48,7 +48,7 @@ var runner = function(event, context, callback){
             coupon: process.env.COUPON,
             delivery_address_id: null,
             order: order,
-            payment: {},
+            payment: { card: process.env.CC_ID},
             apiVersion: 2
         },
         auth: {
